@@ -1,0 +1,297 @@
+{
+ "data":"Load the Data",
+ "ProjectHeader":"Basic Layout",
+ "ProjectSocial":{
+     "ShareUrl":"https://www.google.com",
+     "ShareHeader":"Share This Page",
+     "ShareCopy":"This is a test of the Social flipcard buttons",
+     "ShareImage":"",
+     "ShareThumb":""
+ },
+ "Cards":[
+     {
+         "front":{
+            
+            "bgImage":"",
+            "banner":{
+                "media":"image",
+                "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a92e904c830257a34734ff5/1519577373504/Armani-Central-Park-6151.gif?format=1000w"
+            },
+            "content":{
+                "type":"basic",
+                "header":"I have a CTA on the other side",
+                "subheader":"This is a Sub Header",
+                "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+         },
+         "back":{
+            
+            "bgImage":"",
+            "CTA":{
+                "location":"http://www.google.com",
+                "Label":"More Info!"
+            },
+            "banner":{
+                "media":"image", 
+                "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a92e801085229b264ca29fc/1519577337605/download.gif?format=1000w"
+            },
+            "content":{
+                "type":"basic",
+                "header":"This is a Title for the Back",
+                "subheader":"This is a Sub Header on the back",
+                "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+          
+         }
+    },
+    {
+        "front":{
+           
+           "bgImage":"",
+           "CTA":{
+                "location":"http://www.google.com",
+                "Label":"More Info!"
+            },
+           "banner":{
+               "media":"image",
+               "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a92e52f71c10b0d6537df68/1519814094467/OZ-MASTER-with-Color9801.gif?format=750w"
+           },
+           "content":{
+               "type":"basic",
+               "header":"I have a CTA on the other side",
+               "subheader":"This is a Sub Header",
+               "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+           }
+        },
+        "back":{
+           
+           "bgImage":"",
+           "CTA":{
+            "location":"http://www.google.com",
+            "Label":"More Info!"
+        },
+           "banner":{
+               "media":"image", 
+               "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a92e4f29140b7427f320ced/1519814094441/INDIA-980.gif?format=750w"
+           },
+           "content":{
+               "type":"basic",
+               "header":"This is a Title for the Back",
+               "subheader":"This is a Sub Header on the back",
+               "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+           }
+         
+        }
+   },
+   {
+    "front":{
+       
+       "bgImage":"",
+       "banner":{
+           "media":"image",
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a93f42471c10b0d656d1562/1519814094495/dirk-980.gif?format=1000w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"I have a CTA on the other side",
+           "subheader":"This is a Sub Header",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+    },
+    "back":{
+       
+       "bgImage":"",
+       "CTA":{
+            "location":"http://www.google.com",
+            "Label":"More Info!"
+        },
+       "banner":{
+           "media":"image", 
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a92e57924a69489a70ab980/1519814094476/chopard.gif?format=750w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"This is a Title for the Back",
+           "subheader":"This is a Sub Header on the back",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+     
+    }
+},
+{
+    "front":{
+       
+       "bgImage":"",
+       "banner":{
+           "media":"image",
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a95c231419202eb9a763970/1519814094692/tumblr_nfro6qnt591qzcq51o1_500.gif?format=750w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"I have a CTA on the other side",
+           "subheader":"This is a Sub Header",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+    },
+    "back":{
+       
+       "bgImage":"",
+       "CTA":{
+            "location":"http://www.google.com",
+            "Label":"More Info!"
+        },
+       "banner":{
+           "media":"image", 
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a93031b9140b7427f38c449/1519814094723/tparisumblr_nvfz0iKrVw1qzcq51o1_540.gif?format=750w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"This is a Title for the Back",
+           "subheader":"This is a Sub Header on the back",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+     
+    }
+},
+{
+    "front":{
+       
+       "bgImage":"",
+       "banner":{
+           "media":"image",
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a92e9ccec212d9451d56ff9/1519814094696/Lincoln_Cinemagraph_615.gif?format=750w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"I have a CTA on the other side",
+           "subheader":"This is a Sub Header",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+    },
+    "back":{
+       
+       "bgImage":"",
+       "CTA":{
+            "location":"http://www.google.com",
+            "Label":"More Info!"
+        },
+       "banner":{
+           "media":"image", 
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a95c218e2c483fa2d99a1ba/1519814094752/tumblr_onyl9obSl01qip9sho1_r1_500.gif?format=750w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"This is a Title for the Back",
+           "subheader":"This is a Sub Header on the back",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+     
+    }
+},
+{
+    "front":{
+       
+       "bgImage":"",
+       "banner":{
+           "media":"image",
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a93f6a54192029593900536/1519814094727/patagonia-cinemagraph.gif?format=1000w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"I have a CTA on the other side",
+           "subheader":"This is a Sub Header",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+    },
+    "back":{
+       
+       "bgImage":"",
+       "CTA":{
+            "location":"http://www.google.com",
+            "Label":"More Info!"
+        },
+       "banner":{
+           "media":"image", 
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a95c7d2ec212d4cb4503583/1519814094959/af07.gif?format=750w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"This is a Title for the Back",
+           "subheader":"This is a Sub Header on the back",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+     
+    }
+},
+{
+    "front":{
+       
+       "bgImage":"",
+       "banner":{
+           "media":"image",
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a92e801085229b264ca29fc/1519577337605/download.gif?format=1000w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"I have a CTA on the other side",
+           "subheader":"This is a Sub Header",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+    },
+    "back":{
+       
+       "bgImage":"",
+       "CTA":{
+            "location":"http://www.google.com",
+            "Label":"More Info!"
+        },
+       "banner":{
+           "media":"image", 
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a92e52f71c10b0d6537df68/1519814094467/OZ-MASTER-with-Color9801.gif?format=750w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"This is a Title for the Back",
+           "subheader":"This is a Sub Header on the back",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+     
+    }
+},
+{
+    "front":{
+       
+       "bgImage":"",
+       "banner":{
+           "media":"image",
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a92e57924a69489a70ab980/1519814094476/chopard.gif?format=750w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"I have a CTA on the other side",
+           "subheader":"This is a Sub Header",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+    },
+    "back":{
+       
+       "bgImage":"",
+       "CTA":{
+            "location":"http://www.google.com",
+            "Label":"More Info!"
+        },
+       "banner":{
+           "media":"image", 
+           "src":"https://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/5a9298a1c830257a3467a8de/5a93f42471c10b0d656d1562/1519814094495/dirk-980.gif?format=1000w"
+       },
+       "content":{
+           "type":"basic",
+           "header":"This is a Title for the Back",
+           "subheader":"This is a Sub Header on the back",
+           "copy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+       }
+     
+    }
+}
+ ]
+}

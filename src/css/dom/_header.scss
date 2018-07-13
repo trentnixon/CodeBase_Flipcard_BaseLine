@@ -1,0 +1,24 @@
+#Header{
+
+    @include BMP($SecondaryColor,0%,10px) ;
+
+    height:100px;
+    border-bottom: 5px solid $TertiaryColor;
+
+    h1{
+        display: inline;
+        font-size: $FontLargeSize;
+        line-height: $FontLargeLine;
+        font-weight: $FontLargeWeight;
+        color:$SecondaryHColor;
+    }
+
+    h2{
+        display: inline;
+        font-size: $FontMedSize;
+        line-height: $FontMedLine;
+        font-weight: $FontMedWeight;
+        color:$SecondaryHColor;
+    }
+   
+} 

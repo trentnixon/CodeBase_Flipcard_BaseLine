@@ -1,0 +1,17 @@
+.card-container{
+    .side-front [class^=col-xs]:first-of-type {
+            padding-left: 0;
+        }
+
+    .side-front{
+            background-color:$SecondaryColor;
+            h2{ color: $TertiaryColor; }
+            h3{ color: $PrimaryColor; }
+            p{ color: $PrimaryColor; }
+
+            .Side-Content{
+                background-color: $SecondaryColor;
+            }
+        }
+}
+  

@@ -1,0 +1,27 @@
+#Glabs{
+
+    @include BMP($PrimaryColor,0%,0%) ;
+
+    // Include Dom elements used in the build here
+    // Dom element SCSS files should be located in the "dom" folder
+
+    // DOM Structure
+    // Header
+    @import "../dom/_header.scss";
+
+    // FlipCards
+    @import "../dom/_Flipcards.scss";
+
+    // Bottom Navigation
+    @import "../dom/_BottomNavBar.scss";
+
+
+
+
+     // Components
+
+
+    // Elements
+    @import "../components/Btns/_btns.scss"; 
+
+} 

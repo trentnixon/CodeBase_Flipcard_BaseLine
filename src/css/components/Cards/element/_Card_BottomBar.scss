@@ -1,0 +1,19 @@
+.Card_Bottom{
+
+    @include BMP(transparent,0,0) ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
+    #CTA{ 
+            @include BMP(transparent,10px 0 25px ,0) ; 
+        }
+
+    .ActionBar{ 
+                @include BMP($TertiaryColor,0 ,0) ; 
+                position: relative;
+                height: 45px;
+        } 
+
+} 

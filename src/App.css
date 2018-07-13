@@ -1,0 +1,389 @@
+/*-
+
+    Styling Structure!
+
+    Global Files
+        ** _reset
+        ** _variables
+        ** _reset_bootstraps // For Custom Classes
+
+
+    Project Files/ Page Layouts
+        ** Pages/ _Main
+
+        Project DOM
+            ** dom/_header.scss
+            ** dom/_Flipcards.scss
+            ** dom/_BottomNavBar.scss
+
+           Project (Card) Elements
+            Outer frame
+            ** /components/Cards/_Card_Frame.scss
+            Inner Frame
+            ** /components/Cards/_Card_Inner.scss
+
+                Inside Inner lies the card Elements
+                Card Type
+                ** /element/_Card_Typograhy.scss
+                Card Header
+                ** /element/_Card_Banner.scss
+                Card Content
+                ** /element/_Card_Content.scss
+                Card Bottom Bar
+                ** /element/_Card_BottomBar.scss
+
+                Side Specific
+                ** /_Card_Front.scss
+                ** /_Card_Back.scss
+
+
+            Flip Action
+            ** /components/Cards/_Card_Flip.scss
+            Bottom Bar
+            ** components/Cards/_Card_Bottom_Bar.scss
+            Media Components
+            ** /components/Cards/_Card_Media.scss
+
+ 
+    Global Elements
+        Buttons
+        ** components/Btns/_btns.scss
+
+-*/
+/*- Resets -*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul, li {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer; }
+
+/*- Typograpy  -*/
+/*- SCCS Properties -*/
+html body {
+  font-family: "Roboto", sans-serif;
+  background-color: #232f34; }
+  html body .nopadding {
+    padding: 0; }
+  html body .nomargin {
+    margin: 0; }
+
+/*- Build up Dom Elements -*/
+#LoadingScreen {
+  height: 100vh;
+  width: 100vh; }
+
+#Glabs {
+  background-color: #232f34;
+  margin: 0%;
+  padding: 0%;
+  /**
+  Call to Action Button
+*/
+  /*
+// FLIP Button
+*/
+  /* Open or Close All Cards btn, Located top of the page */
+  /* Float btn links to Glabs */
+  /**
+
+  Set Btn Styles for the Back side of the card
+
+*/ }
+  #Glabs #Header {
+    background-color: #e6e6e6;
+    margin: 0%;
+    padding: 10px;
+    height: 100px;
+    border-bottom: 5px solid #f9aa33; }
+    #Glabs #Header h1 {
+      display: inline;
+      font-size: 2em;
+      line-height: 1.5em;
+      font-weight: 100;
+      color: #232f34; }
+    #Glabs #Header h2 {
+      display: inline;
+      font-size: 1.5em;
+      line-height: 1.8em;
+      font-weight: 100;
+      color: #232f34; }
+  #Glabs #FlipCard {
+    background-color: #232f34;
+    margin: 1% 1% 60px;
+    padding: 2%;
+    /*- Card sides -*/
+    /*- Flipping the card 
+  .card-container:hover .card-body {
+      transform: rotateY(180deg);
+    }
+    
+    .card-container:hover > .card-body > .side-front {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 1s ease-in, visibility .75s linear;
+    }
+-*/ }
+    #Glabs #FlipCard .Card_Frame {
+      background-color: #232f34;
+      margin: 0;
+      padding: 0%; }
+      #Glabs #FlipCard .Card_Frame .card-container {
+        height: 550px;
+        background-color: #232f34;
+        margin: 0;
+        padding: 1px;
+        position: relative;
+        z-index: 1;
+        perspective: 1000px; }
+        #Glabs #FlipCard .Card_Frame .card-container .card-body {
+          background-color: transparent;
+          margin: 0;
+          padding: 0px;
+          transform-style: preserve-3d;
+          transition: all .7s linear;
+          width: 100%;
+          height: 100%; }
+    #Glabs #FlipCard .card-side {
+      background-color: transparent;
+      margin: 0;
+      padding: 0px;
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
+      background-size: cover; }
+      #Glabs #FlipCard .card-side .card-side-outer {
+        background-color: transparent;
+        margin: 0;
+        padding: 0px; }
+        #Glabs #FlipCard .card-side .card-side-outer .card-side-layout {
+          background-color: transparent;
+          margin: 0 15px;
+          padding: 0px;
+          font-size: .72em;
+          /* Inner Card Elements */ }
+          #Glabs #FlipCard .card-side .card-side-outer .card-side-layout h1 {
+            font-size: 2em;
+            font-weight: 100;
+            line-height: 1.5em;
+            margin: 0; }
+          #Glabs #FlipCard .card-side .card-side-outer .card-side-layout h2 {
+            font-size: 2em;
+            font-weight: 100;
+            line-height: 1.5em;
+            margin: 0; }
+          #Glabs #FlipCard .card-side .card-side-outer .card-side-layout h3 {
+            font-size: 1.5em;
+            font-weight: 100;
+            line-height: 1.8em;
+            margin: 0; }
+          #Glabs #FlipCard .card-side .card-side-outer .card-side-layout p {
+            font-size: 1.2em;
+            font-weight: 100;
+            line-height: 1.4em;
+            margin: 0; }
+          #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Side-Banner {
+            background-color: transparent;
+            margin: 0;
+            padding: 1px; }
+            #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Side-Banner img {
+              width: 100%; }
+          #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Side-Content {
+            background-color: transparent;
+            margin: 0;
+            padding: 0 15px; }
+          #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Card_Bottom {
+            background-color: transparent;
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%; }
+            #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Card_Bottom #CTA {
+              background-color: transparent;
+              margin: 10px 0 25px;
+              padding: 0; }
+            #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Card_Bottom .ActionBar {
+              background-color: #f9aa33;
+              margin: 0;
+              padding: 0;
+              position: relative;
+              height: 45px; }
+    #Glabs #FlipCard .card-container .side-front [class^=col-xs]:first-of-type {
+      padding-left: 0; }
+    #Glabs #FlipCard .card-container .side-front {
+      background-color: #e6e6e6; }
+      #Glabs #FlipCard .card-container .side-front h2 {
+        color: #f9aa33; }
+      #Glabs #FlipCard .card-container .side-front h3 {
+        color: #232f34; }
+      #Glabs #FlipCard .card-container .side-front p {
+        color: #232f34; }
+      #Glabs #FlipCard .card-container .side-front .Side-Content {
+        background-color: #e6e6e6; }
+    #Glabs #FlipCard .card-container .side-back {
+      z-index: 2;
+      padding: 0;
+      transform: rotateY(180deg);
+      background-color: #232f34; }
+      #Glabs #FlipCard .card-container .side-back .Side-Content {
+        background-color: #232f34; }
+      #Glabs #FlipCard .card-container .side-back h1 {
+        color: #e6e6e6; }
+      #Glabs #FlipCard .card-container .side-back h2 {
+        color: #f9aa33; }
+      #Glabs #FlipCard .card-container .side-back h3 {
+        color: #e6e6e6; }
+      #Glabs #FlipCard .card-container .side-back p {
+        color: #e6e6e6; }
+    #Glabs #FlipCard .card-container.back .card-body {
+      transform: rotateY(180deg); }
+    #Glabs #FlipCard .card-container.back > .card-body > .side-front {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 1s ease-in, visibility .75s linear; }
+    #Glabs #FlipCard .BeforeAfterSlider {
+      margin: 0 auto;
+      z-index: 9;
+      width: 100% !important; }
+  #Glabs #BottomBar {
+    background-color: #f9aa33;
+    margin: 0%;
+    padding: 10px;
+    border-top: 3px solid #232f34;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99; }
+    #Glabs #BottomBar #SocialBar {
+      padding: 1%; }
+      #Glabs #BottomBar #SocialBar #socialIcons {
+        line-height: 0em;
+        float: right;
+        display: inline-block; }
+        #Glabs #BottomBar #SocialBar #socialIcons .icon {
+          display: inline-block;
+          margin: 0 2px; }
+  #Glabs button {
+    -webkit-appearance: initial; }
+  #Glabs .Button_Action_CTA {
+    color: #232f34;
+    background-color: #e6e6e6;
+    border-color: #232f34; }
+  #Glabs .Button_Action_CTA:hover {
+    color: #f9aa33;
+    background-color: #e6e6e6;
+    border-color: #f9aa33; }
+  #Glabs .Button_Action_FlipMe {
+    color: #232f34;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    transition: transform .3s;
+    position: relative;
+    top: -50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    border: 5px solid #e6e6e6;
+    width: 60px;
+    height: 60px; }
+  #Glabs .Button_Action_FlipMe:hover {
+    color: #f9aa33;
+    background-color: #232f34;
+    border-color: #e6e6e6;
+    transform: rotate(180deg);
+    transition: transform .3s; }
+  #Glabs .OpenAll {
+    float: right;
+    margin: 10px 0;
+    color: #232f34;
+    background-color: #f9aa33;
+    border-color: #f9aa33;
+    transition: transform 1s; }
+  #Glabs .OpenAll:hover {
+    color: #f9aa33;
+    background-color: #232f34;
+    border-color: #232f34;
+    transform: rotate(180deg);
+    transition: transform 1s; }
+  #Glabs .Button_Action_PZ {
+    color: #232f34;
+    background-color: #f9aa33;
+    border-color: #f9aa33;
+    transition: transform .5s;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: .9em;
+    min-width: 30px;
+    min-height: 30px; }
+  #Glabs .Button_Action_PZ:hover {
+    color: #f9aa33;
+    background-color: #232f34;
+    border-color: #232f34;
+    transform: rotate(180deg);
+    transition: transform .5s; }
+  #Glabs .side-back .Button_Action_FlipMe {
+    color: #f9aa33;
+    background-color: #232f34;
+    border-color: #232f34;
+    transition: transform .3s; }
+  #Glabs .side-back .Button_Action_FlipMe:hover {
+    color: #232f34;
+    background-color: #f9aa33;
+    border-color: #232f34;
+    transform: rotate(180deg);
+    transition: transform .3s; }
+  #Glabs .side-back .Button_Action_CTA {
+    color: #f9aa33;
+    background-color: #232f34;
+    border-color: #f9aa33; }
+  #Glabs .side-back .Button_Action_CTA:hover {
+    color: #232f34;
+    background-color: #f9aa33;
+    border-color: #f9aa33; }
